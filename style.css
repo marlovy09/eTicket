@@ -1,0 +1,48 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Logo Styling */
+.logo {
+    height: 50px;
+}
+
+/* Banner Section */
+.banner img.event-img {
+    max-width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.event-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000; /* Cambiado a negro */
+    margin-top: 20px;
+}
+
+.event-subtitle {
+    font-size: 1.2rem;
+    color: #333; /* Color oscuro para subtítulo */
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #aaa;
+}
+
+/* Card Image */
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Navbar Links */
+.nav-link:hover {
+    text-decoration: underline;
+}
